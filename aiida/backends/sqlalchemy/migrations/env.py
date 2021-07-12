@@ -22,6 +22,7 @@ from aiida.backends.sqlalchemy.models.settings import DbSetting
 from aiida.backends.sqlalchemy.models.user import DbUser
 from aiida.common.exceptions import DbContentError
 from aiida.backends.sqlalchemy.models.base import Base
+
 target_metadata = Base.metadata  # pylint: disable=invalid-name
 
 
